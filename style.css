@@ -1,0 +1,14 @@
+marquee{
+    background-color: orangered;
+    position: sticky;
+    top: 10;
+    z-index: 99999;
+    font-size: 25px;
+}
+body{
+    text-align: center;
+    background-color: rgb(29, 29, 235);
+}
+#user_name{
+    width: 250px;
+}
