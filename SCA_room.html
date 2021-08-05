@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SCA Chat</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body id="body_2">
+<div class="container">
+<button id="logout" onclick="logOut()" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+	<center>
+		<h1 class="header">	
+			St Clair Academy
+			</h1>
+            <br>
+				<img width="200px" height="200px" src="crest.jpg">
+		<h3 class="color_white" id="username"></h3>
+		<div class="form-group input_div_room_page">
+			<label>Add Room:</label>
+<input type="text" id="addRoom" class="form-control" placeholder="room name">
+		</div>
+		<button onclick="addRoom()"class="btn btn-success">Add Room</button>
+		<h3 class="color_white">All Rooms</h3>
+	<div id="output"></div>
+	</center>
+</div>
+<script src="SCA_room.js"></script>
+</body>
+</html>

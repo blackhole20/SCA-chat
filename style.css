@@ -7,8 +7,29 @@ marquee{
 }
 body{
     text-align: center;
-    background-color: rgb(29, 29, 235);
+    background-color: midnightblue;
 }
 #user_name{
     width: 250px;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+#body_2{
+    background-color: midnightblue;
+}
+
+label{
+    color: white;
+}
+
+h3{
+    color:white;
+}
+
+h1{
+    color:white;
 }
