@@ -1,4 +1,4 @@
-var firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyDvx2bAJKkP0KXCyD4A4jzcl3Nf6vnJQT8",
     authDomain: "scachat-9c39c.firebaseapp.com",
     databaseURL: "https://scachat-9c39c-default-rtdb.firebaseio.com",
